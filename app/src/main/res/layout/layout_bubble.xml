@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--
+        The floating bubble icon.
+        A circular button that represents the messenger bubble.
+        User can drag it around and tap to open the chat window.
+    -->
+    <ImageView
+        android:id="@+id/iv_bubble"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_bubble"
+        android:background="@drawable/circle_bg"
+        android:padding="12dp"
+        android:elevation="8dp"/>
+
+</FrameLayout>

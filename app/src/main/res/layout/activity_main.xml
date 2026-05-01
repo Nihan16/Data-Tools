@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1A1A2E">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bubble App"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#E94560"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Floating Messenger"
+        android:textSize="14sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Bubble Status -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bubble: DISABLED"
+        android:textSize="16sp"
+        android:textColor="#FF5555"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Enable Button -->
+    <Button
+        android:id="@+id/btn_enable"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:text="Enable Bubble"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="#E94560"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Disable Button -->
+    <Button
+        android:id="@+id/btn_disable"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:text="Disable Bubble"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="#555555"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="260dp"
+        android:layout_height="1dp"
+        android:background="#333355"
+        android:layout_marginBottom="28dp"/>
+
+    <!-- Insta Mode Status -->
+    <TextView
+        android:id="@+id/tv_insta_mode_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insta Mode is INACTIVE"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Insta Mode Toggle Button -->
+    <Button
+        android:id="@+id/btn_insta_mode"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:text="Insta Mode: OFF"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="#16213E"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tip: Enable Insta Mode BEFORE turning on Bubble"
+        android:textSize="12sp"
+        android:textColor="#666688"
+        android:gravity="center"/>
+
+</LinearLayout>
