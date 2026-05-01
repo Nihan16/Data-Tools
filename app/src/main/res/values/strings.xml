@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bubble App</string>
+    <string name="enable_bubble">Enable Bubble</string>
+    <string name="disable_bubble">Disable Bubble</string>
+    <string name="insta_mode">Insta Mode</string>
+    <string name="send">Send</string>
+    <string name="type_message">Type a message...</string>
+</resources>
